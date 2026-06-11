@@ -26,7 +26,7 @@ To run this MCP server locally on your machine:
    export PORT=8080
    export GOOGLE_CLOUD_PROJECT=<your-gcp-project-id>
    export GOOGLE_CLOUD_LOCATION=us-central1
-   export GRADR_BACKEND_URL=http://localhost:5000
+   export GRADR_BACKEND_URL=https://gradr-backend-943768265988.us-central1.run.app
    export ADMIN_JWT_TOKEN=<your-admin-token>
    ```
    *Make sure you are authenticated with GCP (`gcloud auth application-default login`) since `parse_marking_guide` uses Vertex AI.*
